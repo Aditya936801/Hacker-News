@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #272727;
+    padding: 0;
+    margin: 0;
+}
+.App{
+    nav{
+        position: relative;
+        top: -500px;
+        background-color: #333333;
+        padding: 20px;
+        font-size: xx-large;
+        font-family: -webkit-pictograph;
+        color: white;
+        animation: drop 1.5s linear forwards;
+        .capital{
+            font-size: xxx-large;
+            color: #ff6347;
+        }
+    }
+ 
+
+    
+}
+
+
+
+@keyframes drop{
+    0%{
+        top: -500px;
+    }
+    80%{ 
+        top: 20px;
+    }
+    100%{
+        top: 0px;
+    }
+}
